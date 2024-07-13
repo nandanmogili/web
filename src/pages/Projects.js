@@ -31,7 +31,7 @@ function Projects() {
       title: 'My Website',
       duration: 'May 2024 - Present',
       description: 'This website, showcasing my projects and experiences.',
-      link: 'https://github.com/nandanmogili/nandanmogili.github.io'
+      link: 'https://github.com/nandanmogili/web'
     }
   ];
 
