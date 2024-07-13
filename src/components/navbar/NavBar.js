@@ -16,9 +16,13 @@ function NavBar() {
     <nav className="NavBarItems reset-gradient">
       <ul className="nav-menu">
         <li>
-          <NavLink className="nav-links" to="/web" exact onClick={resetGradient}>
+          <a
+            className="nav-links"
+            href="https://nandanmogili.github.io/web/"
+            onClick={resetGradient}
+          >
             Home
-          </NavLink>
+          </a>
         </li>
         <li>
           <NavLink className="nav-links" to="/resume">
