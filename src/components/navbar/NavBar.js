@@ -12,6 +12,12 @@ function NavBar() {
     });
   };
 
+  const handleHomeClick = (event) => {
+    event.preventDefault(); // Prevent the default anchor behavior
+    resetGradient();
+    window.location.href = 'https://nandanmogili.github.io/web/';
+  };
+
   return (
     <nav className="NavBarItems reset-gradient">
       <ul className="nav-menu">
@@ -19,7 +25,7 @@ function NavBar() {
           <a
             className="nav-links"
             href="https://nandanmogili.github.io/web/"
-            onClick={resetGradient}
+            onClick={handleHomeClick}
           >
             Home
           </a>
