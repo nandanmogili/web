@@ -1,0 +1,17 @@
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: white; /* Ensure the icons are white */
+    font-size: 30px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: orange; /* Change to orange on hover */
+  }
+  

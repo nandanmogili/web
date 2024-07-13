@@ -1,0 +1,49 @@
+@keyframes gradientBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif; /* Apply Open Sans to the entire body */
+  }
+  
+  .NavBarItems.reset-gradient {
+    background: linear-gradient(270deg, black, #6b2900, #6b2900, black);
+    background-size: 400% 400%;
+    animation: gradientBackground 10s ease infinite;
+    height: 80px;
+    display: flex;
+    justify-content: center; /* Center the nav options */
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .nav-menu li {
+    margin: 0 20px; /* Add some space between menu items */
+  }
+  
+  .nav-links {
+    color: white; /* Make the text white */
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .nav-links:hover,
+  .nav-links.active {
+    color: orange; /* Change to orange on hover and when active */
+  }
+  
